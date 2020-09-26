@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.l_d {
+    height: 43px;
+    font-size: 13px;
+}
+.l_u {
+    float: left;
+    position: absolute;
+    height: 43px;
+    margin-left: 174px;
+    margin-top: 2px;
+}
+.l_u li {
+    float: left;
+}
+.l_u li a {
+    display: inline-block;
+    line-height: 39px;
+    margin-left: 18px;
+    margin-right: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffffcc;
+}
+.l_u li a:hover {
+    color: #fff;
+}
+.l_g {
+    display: inline-block;
+    margin: 11px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.r_d {
+    float: right;
+    margin-right: 192px;
+}
+.r_a1 {
+    border-spacing: 0;
+    display: inline-block;
+    padding: 0 12px;
+    margin-top: 2px;
+    height: 41px;
+}
+#si {
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.r_s1 {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin: 4px 0px 2px 3px;
+    vertical-align: middle;
+    background: transparent url(images/spirit1.png) no-repeat;
+    border-radius: 16px;
+    background-color: #ececec;
+    background-position: -11px -149px;
+}
+.r_a2 {
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    margin: 0 0 14px 10px;
+    vertical-align: bottom;
+    background: transparent url(images/spirit1.png) no-repeat;
+    background-position: -170px -149px;
+    border: 0;
+    cursor: pointer;
+}
+.menu {
+    position: absolute;
+    margin-left: -182px;
+    width: 320px;
+    height: 330px;
+    padding: 12px 0;
+    background-color: #ffffff;
+}
+.menu a {
+    display: block;
+    height: 17px;
+    width: 276px;
+    padding: 12px 21px;
+}
+.search {
+    height: 55px;
+    width: 864px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.logo {
+    height: 52px;
+    width: 132px;
+    margin-right: 21px;
+    background: transparent url(images/spirit1.png) no-repeat;
+}
+.s1 {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 153px;
+    text-indent: 13px;
+    line-height: 37px;
+    height: 37px;
+    width: 90px;
+    background: #fff;
+    background: linear-gradient(-107deg, transparent 15px, #fff 0);
+}
+.s2 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 235px;
+    text-indent: 13px;
+    line-height: 37px;
+    height: 37px;
+    width: 90px;
+    background: #ffffffcc;
+    background: linear-gradient(-107deg, transparent 15px, #ffffffcc 0);
+}
+.s2:hover {
+    background: #ffffffa1;
+    background: linear-gradient(-107deg, transparent 15px, #ffffffa1 0);
+}
+.input {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 153px;
+    height: 55px;
+    width: 711px;
+    background: #ffffff;
+    border-radius: 0 7px 7px 7px;
+}
+.searchbox {
+    float: left;
+    width: 581px;
+    height: 30px;
+    margin: 11px 1px 0 12px;
+    padding-right: 4px;
+    border: none;
+    font-size: 17px;
+    outline: none;
+}
+.keyboard {
+    float: left;
+    display: inline-block;
+    height: 27px;
+    width: 58px;
+    background-image: url(images/keyboard.png);
+    margin-top: 17px;
+}
+.input button {
+    cursor: pointer;
+    float: left;
+    height: 55px;
+    width: 50px;
+    background: transparent url(images/spirit1.png) no-repeat;
+    background-position: -158px -50px;
+    border: 0;
+}
+.b1 {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 80px;
+}
+.b1_1 {
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+    height: 43px;
+    width: 240px;
+}
+.b1 div a {
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+}
+.b1_d {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+.b1_d1 {
+    background: transparent url(images/spirit2.png);
+}
+.b1_d2 {
+    background: transparent url(images/spirit3.png) no-repeat;
+    background-position: 0 -84px;
+}
+.b1_d3 {
+    background: transparent url(images/spirit3.png) no-repeat;
+    background-position: 0 -126px;
+}
+.b1_d4 {
+    background: transparent url(images/spirit3.png) no-repeat;
+    background-position: 0 -42px;
+}
