@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微软 Bing 搜索 - 国内版</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+    <!-- 下拉菜单 -->
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".menu").toggle();
+            });
+        });
+    </script>
+</head>
+<body background="images/DorsetHeather.jpg">
+    <div class="l_d">
+        <!-- 导航栏 -->
+        <ul class="l_u">
+            <li><a href="https://cn.bing.com/images/trending?form=Z9LH">Images</a></li>
+            <li><a href="https://cn.bing.com/videos/trending?form=Z9LH1">Videos</a></li>
+            <li><a href="https://cn.bing.com/videos/trending?form=Z9LH2">Academic</a></li>
+            <li><a href="https://cn.bing.com/videos/trending?form=Z9LH3">Dict</a></li>
+            <li><a href="https://cn.bing.com/videos/trending?form=Z9LH4">Maps</a></li>
+            <li class="l_g">|</li>
+            <li><a href="#">Office</a></li>
+            <li><a href="#">Outlook.com</a></li>
+        </ul>
+        <!-- 用户 -->
+        <div class="r_d">
+            <a class="r_a1" href="#">
+                <span id="si">Sign in</span>
+                <span class="r_s1"></span>
+            </a>
+            <!-- 下拉菜单   -->
+            <button class="r_a2"></button>
+            <div class="menu">
+                <a href="#">Settings</a>
+                <a href="#">SafeSearch</a>
+                <a href="#">Search history</a>
+                <a href="#">Privacy</a>
+                <a href="#">Feedback</a>
+                <a href="#">Customize your homepage</a>
+                <a href="#">Show menu bar</a>
+                <a href="#">Show homepage image</a>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索栏 -->
+    <div class="search">
+        <div class="logo"></div>
+        <div class="switch">
+            <div class="s1">国内版</div>
+            <!-- 切换没搞懂哼啊啊啊啊啊偷鸡了 -->
+            <a href="https://cn.bing.com/?ensearch=1&FORM=BEHPTB" class="s2">国际版</a>
+        </div>
+        <div class="input">
+            <input class="searchbox">
+            <a href="#" class="keyboard"></a>
+            <button></button>
+        </div>
+    <!-- 右下角 -->
+    </div>
+        <div class="b1">
+            <div class="b1_1">
+                <a href="#">
+                    <div class="b1_d b1_d1"></div>
+                </a>
+                <a href="#">
+                    <div class="b1_d b1_d2"></div>
+                </a>
+                <a href="#">
+                    <div class="b1_d b1_d3"></div>
+                </a>
+                <a href="#">
+                    <div class="b1_d b1_d4"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
